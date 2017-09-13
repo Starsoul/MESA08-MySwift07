@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		12B3AD7C1F68BE1D000761CA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B3AD7B1F68BE1D000761CA /* main.swift */; };
+		12B3AD831F68BE45000761CA /* enumtest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B3AD821F68BE45000761CA /* enumtest.swift */; };
+		12B3AD851F68C6C5000761CA /* bradapi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B3AD841F68C6C5000761CA /* bradapi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		12B3AD781F68BE1D000761CA /* MySwift07 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MySwift07; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B3AD7B1F68BE1D000761CA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		12B3AD821F68BE45000761CA /* enumtest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enumtest.swift; sourceTree = "<group>"; };
+		12B3AD841F68C6C5000761CA /* bradapi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bradapi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				12B3AD7B1F68BE1D000761CA /* main.swift */,
+				12B3AD821F68BE45000761CA /* enumtest.swift */,
+				12B3AD841F68C6C5000761CA /* bradapi.swift */,
 			);
 			path = MySwift07;
 			sourceTree = "<group>";
@@ -121,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B3AD831F68BE45000761CA /* enumtest.swift in Sources */,
 				12B3AD7C1F68BE1D000761CA /* main.swift in Sources */,
+				12B3AD851F68C6C5000761CA /* bradapi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
